@@ -78,7 +78,7 @@ ttf-parser = { version = "0.12", default-features = false }
 byteorder = "1.4.3"
 resvg = "0.18"
 tiny-skia = "0.6"
-usvg = "0.18"
+usvg = "0.19"
 ed25519-dalek = "1.0.1"
 x25519-dalek = "1.2.0"
 curve25519-dalek = "3.2.0"
