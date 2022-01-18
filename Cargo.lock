@@ -474,7 +474,7 @@ dependencies = [
  "tempdir",
  "tera",
  "thiserror",
- "time 0.2.27",
+ "time 0.3.5",
  "tiny-skia",
  "tokio",
  "tokio-tungstenite",
@@ -4453,12 +4453,21 @@ checksum = "4752a97f8eebd6854ff91f1c1824cd6160626ac4bd44287f7f4ea2035a02a242"
 dependencies = [
  "const_fn",
  "libc",
- "serde",
  "standback",
  "stdweb",
  "time-macros",
  "version_check",
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "time"
+version = "0.3.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "41effe7cfa8af36f439fac33861b66b049edc6f9a32331e2312660529c1c24ad"
+dependencies = [
+ "libc",
+ "serde",
 ]
 
 [[package]]
