@@ -53,7 +53,7 @@ reqwest = "0.11.7"
 ring = "0.16.20"
 mysql_async = { git = "https://github.com/losfair/mysql_async", rev = "f976f8683b4db3bef465b00e44e08087ada337a4" }
 flume = "0.10.9"
-time = { version = "0.2", features = ["serde"] }
+time = { version = "0.3", features = ["serde"] }
 uuid = "0.8"
 futures = { version = "0.3", features = ["executor"] }
 a2 = "0.6.0"
