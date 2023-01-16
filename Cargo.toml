@@ -48,7 +48,7 @@ serde_json = "1"
 itertools = "0.10.3"
 rand = "0.8"
 phf = { version = "0.10", features = ["macros"] }
-sysinfo = "0.20.3"
+sysinfo = "0.27.6"
 reqwest = "0.11.7"
 ring = "0.16.20"
 mysql_async = { git = "https://github.com/losfair/mysql_async", rev = "f976f8683b4db3bef465b00e44e08087ada337a4" }
